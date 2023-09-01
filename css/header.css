@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Railwey", sans-serif;
+}
+
+header {
+  /* max-width: 1980px; */
+  width: 100%;
+  /* height: 100%; */
+}
+.header {
+  width: 100%;
+  /* height: 100%; */
+}
+.header-wrapper {
+  padding: 0 120px;
+}
+/*HEADER-TOP*/
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 30px 0;
+}
+.header-phone {
+  display: flex;
+  align-items: center;
+}
+.phone-btn button {
+  background: transparent;
+  border: none;
+}
+.phone-details {
+  display: flex;
+}
+.phone-content {
+  margin-left: 35px;
+  border-bottom: 1px dashed #5a5959;
+  padding-bottom: 13px;
+}
+.arrowDown {
+  width: 14px;
+  height: 7px;
+  margin-left: 6px;
+}
+.lang-btn button {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 15px 8px;
+  background: var(--green);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--white);
+}
+.lang-btn button svg {
+  width: 26px;
+  height: 18px;
+  margin-left: 11px;
+}
+.account-container {
+  display: flex;
+}
+
+.acc-box:nth-child(2) {
+  margin-left: 90px;
+}
+.acc {
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--black);
+}
+.acc-box p {
+  margin-top: 5px;
+  font-weight: 100;
+  font-size: 16px;
+  color: #5a5959;
+  text-transform: uppercase;
+}
+.greyLine {
+  width: 100%;
+}
+.greyLine hr {
+  width: 100%;
+}
+
+/*HEADER-BOTTOM*/
+.header-bottom {
+  width: 100%;
+  box-shadow: 0px 4px 20px #e1e1e1;
+}
+.header-bottom-wrapper {
+  padding: 30px 140px;
+  width: 100%;
+}
+.header-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header-bottom-sec1 {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 18px;
+}
+.header-menu {
+  margin: 0 50px;
+}
+.header-menu nav a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #2b2721;
+}
+.sales-btn button {
+  color: var(--white);
+  padding: 8px 25px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(180deg, #f65c30 0%, #ff4259 100%);
+}
+.header-bottom-section2 {
+  display: flex;
+  align-items: center;
+}
+.header-bottom-section2 input {
+  background: #ecf0f3;
+  border: 1px solid #ecf0f3;
+  backdrop-filter: blur(22.5px);
+  width: 400px;
+  height: 45px;
+}
+.header-bottom-section2 button {
+  border-radius: 4px;
+  background: var(--green);
+  padding: 10px 15px;
+  border: none;
+  margin-left: 27px;
+}
+.header-bottom-section2 button svg {
+  width: 25px;
+  height: 25px;
+  color: var(--white);
+}
